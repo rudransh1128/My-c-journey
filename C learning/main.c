@@ -1,6 +1,6 @@
 #include<stdio.h>
 
 int main(){
-    printf ("AUR BHOSDI KYA HAAL H ");
+    printf ("hello world ");
     return 0;
 }
