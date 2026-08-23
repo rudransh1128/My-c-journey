@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile C++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run C++",
+            "type": "shell",
+            "command": ".\\${fileBasenameNoExtension}.exe",
+            "options": {
+            "cwd": "${fileDirname}"
+        },
+    "presentation": {
+        "showReuseMessage": false
+    }
+}
+    ]
+}
