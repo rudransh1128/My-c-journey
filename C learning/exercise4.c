@@ -8,5 +8,6 @@ int main(){
     b=c;
     printf("After swapping first number is:%d \n", a);
     printf("After swapping second number is:%d", b);
+    //this code is to replace the values of number that are inpit to us
     return 0;
 }
