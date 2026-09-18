@@ -6,6 +6,8 @@ int main(){
     printf("1.Addition\n2.Subtraction\n3.multiplication\n4.division\n");
     printf("Input the number cooresponding to the calculation that you want to perform\n");
     scanf("%d",&op);
+    /* This is a basic calculator made with the help of switch case function
+    */
     switch(op){
         case 1:
         printf("%d + %d = %d",a,b,a+b);
@@ -23,16 +25,6 @@ int main(){
         break;
         default:
         printf("Select a valid option");
-
-
-
-
-
-
-
     }
-
-
-
     return 0;
 }
